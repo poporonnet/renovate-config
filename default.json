@@ -10,8 +10,9 @@
     "semanticCommitScope": "deps",
     "semanticCommitType": "chore",
     "minimumReleaseAge": "3 days",
+    "prHourlyLimit": 0,
     "timezone": "Asia/Tokyo",
-    "schedule": ["before 3am"],
+    "schedule": ["at any time"],
     "rollback": {
         "branchTopic": "{{{depNameSanitized}}}-rollback",
         "commitMessageAction": "Roll back",
