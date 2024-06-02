@@ -9,7 +9,7 @@
     "platformAutomerge": true,
     "dependencyDashboard": true,
     "ignoreTests": false,
-    "rebaseWhen": "conflicted",
+    "rebaseWhen": "auto",
     "semanticCommits": "enabled",
     "semanticCommitScope": "deps",
     "semanticCommitType": "chore",
