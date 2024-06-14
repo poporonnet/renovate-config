@@ -1,11 +1,15 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "group:recommended",
+        "group:monorepos"
+    ],
     "autoApprove": true,
     "automerge": true,
     "platformAutomerge": true,
     "dependencyDashboard": true,
     "ignoreTests": false,
-    "rebaseWhen": "conflicted",
+    "rebaseWhen": "auto",
     "semanticCommits": "enabled",
     "semanticCommitScope": "deps",
     "semanticCommitType": "chore",
@@ -23,7 +27,6 @@
     },
     "packageRules": [
         {
-            "groupName": "Auto merge & approve disable rules",
             "matchUpdateTypes": ["major"],
             "autoApprove": false,
             "automerge": false
